@@ -12,7 +12,7 @@ android-platform-tools（访问[google](https://developer.android.google.cn/stud
 通过adb对安卓手机截图，再将问题区域裁剪出来调用百度的ocr识别出文本<br/>
 然后调用百度搜索（尽可能去除百度软广的情况下，显示前两个答案）
 
-
+![](./1.png)
 ## 百度ocr
 百度ocr：https://cloud.baidu.com/product/ocr.html<br/>
 注册登录后进入右上角控制台，再左侧找到文字识别，创建一个应用，默认设置即可。<br/>
