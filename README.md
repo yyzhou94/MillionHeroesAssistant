@@ -35,6 +35,6 @@ android-platform-tools（访问[google](https://developer.android.google.cn/stud
 
 ## 参考项目
 结合了两位大神的项目，尽量简化源码。<br/>
-但是效果上的进一步提高，目前有些思路但是还没有考虑清楚如何实现<br/>
+但是对于效果上想要进一步提高，目前有些思路但是还没有考虑清楚如何实现<br/>
 - [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes)
 - [smileboywtu/MillionHeroAssistant](https://github.com/smileboywtu/MillionHeroAssistant)
