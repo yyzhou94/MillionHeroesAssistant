@@ -1,18 +1,13 @@
 # -*- coding:utf-8 -*-
 
-import urllib.request, sys,base64,json,os,time,pyperclip,baiduSearch
+
+import urllib,sys,base64,json,os,time,baiduSearch
 from PIL import Image
 from aip import AipOcr
-
 start = time.time()
 os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png") 
 os.system("adb pull /sdcard/screenshot.png ")  
-
-app_id = '***'                               #百度识别的appID,apikey,secretkey（填你自己的）
-api_key= '***'
-secret_key= '***'    #每天上限500次，应该也够用了
-
-
+access_token = '***'                         #填入自己的即可 
 
 im = Image.open(r"./screenshot.png")   
 img_size = im.size
@@ -23,19 +18,23 @@ print("xx:{}".format(img_size))
 region = im.crop((70,200, w-70,700))    #裁剪的区域
 region.save("./crop_test1.png")
 
-f=open('./crop_test1.png','rb')
-image_data=f.read()
+url2 = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic?access_token='+access_token
+f = open(r'./crop_test1.png', 'rb')             # 二进制方式打开图文件
+img = base64.b64encode(f.read())
+f.close()
+params = {"image": img}
+params = urllib.parse.urlencode(params)
+data = bytes(params, encoding='utf8') 
+req = urllib.request.Request(url2,data,method="POST")
+req.add_header('Content-Type', 'application/x-www-form-urlencoded')
+response = urllib.request.urlopen(req)
+content = response.read().decode('utf-8')
 
-client = AipOcr(app_id, api_key, secret_key)                #识别过程
-result = client.basicGeneral(image_data)
-if "error_code" in result:
-    print("baidu api error: ", result["error_msg"])
-else:
-    keyword="".join([words["words"] for words in result["words_result"]])
-keyword = keyword.split(r"．")[-1]
-keywords = keyword.split(" ")
-keyword = "".join([e.strip("\r\n") for e in keywords if e])
-print("keyword: ", keyword)                                 #打印问题
+if (content):
+    content = json.loads(content)
+    
+    keyword="".join([words["words"] for words in list(content['words_result'])])
+    print (keyword)
 
 convey = 'n'
 
