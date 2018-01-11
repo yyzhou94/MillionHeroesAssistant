@@ -13,7 +13,7 @@ android-platform-tools（访问[google](https://developer.android.google.cn/stud
 ## 百度ocr
 百度ocr：https://cloud.baidu.com/product/ocr.html<br/>
 注册登录后进入右上角控制台，再左侧找到文字识别，创建一个应用，默认设置即可。<br/>
-重点来了，找到AppID、API Key、Secret Key，后面需要在程序中填入自己的ID和密钥。<br/>
+重点来了，找到AppID、API Key、Secret Key，后面需要在下方链接中填入自己的两个密钥。<br/>
 第二个重点：api接口需要的是另一个access_token，计算方法如下：访问<br/>
 https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=【官网获取的ApiKey】&client_secret=【官网获取的SecretKey】<br/>
 第一段出现的就是access_token，保存好填入assistant.py中。<br/>
