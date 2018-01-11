@@ -5,7 +5,7 @@
 ## 运行环境
 Python 3.6<br/>
 baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.com/sdk 去下载安装）<br/>
-android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到系统环境变量下）
+android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）
 
 
 ## 基本思路
