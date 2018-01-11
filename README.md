@@ -28,12 +28,12 @@ android-platform-tools（访问[google](https://developer.android.google.cn/stud
 5. 答案仅供参考，辅助锦上添花，奖金不论多少，知识才是无价之宝
 
 ## 测试结果
-出现问题如下：
-![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/screenshot.PNG)
-截取部分如下：
-![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/crop_test1.png?raw=true)
-返回答案：
-![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)
+屏幕所示问题如下：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/screenshot.png?raw=true)<br/>
+截取部分如下：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/crop_test1.png?raw=true)<br/>
+返回答案：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)<br/>
 
 ## 分支说明
 
