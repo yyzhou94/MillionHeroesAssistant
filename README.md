@@ -7,6 +7,8 @@ Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
 baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.com/sdk 去下载安装）<br/>
 android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）
 
+新增requirements.txt，可以pip install -r requirements.txt进行依赖环境的安装
+
 
 ## 基本思路
 通过adb对安卓手机截图，再将问题区域裁剪出来调用百度的ocr识别出文本<br/>
