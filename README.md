@@ -7,6 +7,7 @@
 Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
 android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）
 
+新增requirements.txt，可以pip install -r requirements.txt进行依赖环境的安装
 
 ## 基本思路
 思路没啥本质区别
