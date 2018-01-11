@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-import urllib.request, sys,base64,json,os,time,pyperclip,baiduSearch
+import urllib.request, sys,base64,json,os,time,baiduSearch
 from PIL import Image
 from aip import AipOcr
 
