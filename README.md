@@ -26,6 +26,13 @@ https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id
 4. 等待几秒后，将根据识别出的问题进行百度搜索，并返回两个搜索结果
 5. 答案仅供参考，辅助锦上添花，奖金不论多少，知识才是无价之宝
 
+## 测试结果
+屏幕所示问题如下：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/screenshot.png?raw=true)<br/>
+截取部分如下：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/crop_test1.png?raw=true)<br/>
+返回答案：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)<br/>
 
 ## 参考项目
 - [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes)
