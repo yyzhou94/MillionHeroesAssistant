@@ -3,7 +3,7 @@
 # 百万英雄/冲顶大会/芝士超人 辅助小工具（限安卓手机）
 
 ## 运行环境
-Python 3.6<br/>
+Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
 baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.com/sdk 去下载安装）<br/>
 android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）
 
