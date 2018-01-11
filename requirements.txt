@@ -1,5 +1,3 @@
-baidu_aip==2.0.0.1
 requests==2.18.4
 Pillow==5.0.0
-aip==1.0.0.5
 beautifulsoup4==4.6.0
