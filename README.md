@@ -3,8 +3,6 @@
 # 百万英雄/冲顶大会/芝士超人 辅助小工具
 # 分支版本（限安卓手机）
 
-## 2018-01-12更新：应某些童鞋要求，加入了enter循环
-
 ## 运行环境
 Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
 android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）
