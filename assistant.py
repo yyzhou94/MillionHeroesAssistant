@@ -56,3 +56,18 @@ for result in results:
 
 end = time.time()
 print('程序用时：'+str(end-start)+'秒')
+
+while True:
+    print("""
+请在题目出现时按Enter搜索答案
+         """)
+
+    enter = input("按Enter键开始，按q键后Enter退出...")
+    if enter == 'q':
+        break
+    try:
+        main()
+    except Exception as e:
+        print(str(e))
+        
+print("欢迎下次使用,帮忙Git右上角点个star哦！")   
