@@ -25,7 +25,7 @@
 个人认为绝对够用了，至于效果嘛，我测试到现在目前来看还比较可靠。<br/>
 
 ## 部署与使用(安卓真机)
-1. 手机打开开发者模式，连接电脑，信任后，使用`adb devices`来检查是否有自己的设备，确认已经连接
+1. 手机打开开发者模式和USB调试，连接电脑，信任后，使用`adb devices`来检查是否有自己的设备，确认已经连接
 2. 在assistant.py或assistant_test.py中填入自己的百度ocr的AppID、API Key、Secret Key
 3. 打开手机上的答题app，等待有题目的时候运行`python assistant.py`或`python assistant_test.py`
 4. 等待几秒后，将根据识别出的问题进行百度搜索，并返回两个搜索结果或推荐答案
