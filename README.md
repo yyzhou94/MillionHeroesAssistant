@@ -27,7 +27,7 @@ baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.
 
 ## 部署与使用(安卓真机)
 1. 手机打开开发者模式，连接电脑，信任后，使用`adb devices`来检查是否有自己的设备，确认已经连接
-2. 在assistant.py中填入自己的百度ocr的AppID、API Key、Secret Key
+2. 在assistant.py或assistant_test.py中填入自己的百度ocr的AppID、API Key、Secret Key
 3. 打开手机上的答题app，等待有题目的时候运行`python assistant.py`或`python assistant_test.py`
 4. 等待几秒后，将根据识别出的问题进行百度搜索，并返回两个搜索结果或推荐答案
 5. 答案仅供参考，辅助锦上添花，奖金不论多少，知识才是无价之宝
@@ -35,7 +35,7 @@ baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.
 ## 部署与使用(模拟器方法)
 1. 使用夜神安卓模拟器（其他模拟器是否可行暂无测试），在设置中打开开发者模式和USB调试（具体方法可百度）
 2. cd到夜神模拟器所在目录后，使用`adb connect 127.0.0.1:62001`，连接上模拟器
-3. 在assistant.py中填入自己的百度ocr的AppID、API Key、Secret Key
+3. 在assistant.py或assistant_test.py中填入自己的百度ocr的AppID、API Key、Secret Key
 4. 打开模拟器上的答题app，等待有题目的时候运行`python assistant.py`或`python assistant_test.py`
 5. 等待几秒后，将根据识别出的问题进行百度搜索，并返回两个搜索结果或推荐答案
 
