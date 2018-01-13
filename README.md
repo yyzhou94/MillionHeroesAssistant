@@ -48,7 +48,7 @@ baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.
 返回答案：<br/>
 ![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)<br/>
 新版返回答案：<br/>
-![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/3.PNG)<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/3.png?raw=true)<br/>
 ## 分支说明
 
 - master: 主要是调用百度的SDK
