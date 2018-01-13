@@ -6,11 +6,10 @@
 新增assistant_test.py，对选项检索出次数，推荐出可能答案
 
 ## 运行环境
-Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
-android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）<br/>
-baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.com/sdk 去下载安装）<br/>
-
-新增requirements.txt，可以pip install -r requirements.txt进行依赖环境的安装（python和android-platform-tools还是需要单独安装并配置）
+* Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
+* android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）<br/>
+~~baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.com/sdk 去下载安装）<br/>~~
+* 新增requirements.txt，可以pip install -r requirements.txt进行依赖环境的安装，囊括所有lib
 
 
 ## 基本思路
