@@ -20,7 +20,7 @@
 百度ocr：https://cloud.baidu.com/product/ocr.html<br/>
 注册登录后进入右上角控制台，再左侧找到文字识别，创建一个应用，默认设置即可。<br/>
 重点来了，找到AppID、API Key、Secret Key，后面需要在程序中填入自己的ID和密钥。<br/>
-
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/4.png?raw=true)
 当然，也有好多用汉王ocr的，但是百度的优势就在于免费，每天500次识别次数！！！<br/>
 个人认为绝对够用了，至于效果嘛，我测试到现在目前来看还比较可靠。<br/>
 
