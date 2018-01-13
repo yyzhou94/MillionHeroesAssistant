@@ -67,7 +67,7 @@ class Search:
          print('  B：     ' + str(self.b))
          print('  C：     ' + str(self.c))
          print('---------------------------------')
-         print('  推荐答案(否定请选次数最小者)：' + dict[self.biggest(self.a,self.b,self.c)])
+         print('  推荐选(否定请无视，选次数最小者)：' + dict[self.biggest(self.a,self.b,self.c)])
          print('---------------------------------')
          print()
 
