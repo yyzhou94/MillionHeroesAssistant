@@ -45,7 +45,7 @@
 截取部分如下：<br/>
 ![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/crop_test1.png?raw=true)<br/>
 返回答案：<br/>
-![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG?raw=true)<br/>
 新版返回答案：<br/>
 ![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/3.png?raw=true)<br/>
 ## 分支说明
