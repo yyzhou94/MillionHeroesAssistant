@@ -5,9 +5,9 @@ from PIL import Image
 from aip import AipOcr
 from Search_answer import Search
 
-app_id = '10673492'                               #百度识别的appID,apikey,secretkey（填你自己的）
-api_key= 'Y7xqHn1L04tAAVSlcpbK0Pwr'
-secret_key= 'bG4Ip2NByQh4nnOwLUEW4USR8dwxjPD1'    #每天上限500次，应该也够用了
+app_id = '***'                               #百度识别的appID,apikey,secretkey（填你自己的）
+api_key= '***'
+secret_key= '***'    #每天上限500次，应该也够用了
 
 def main():
   start = time.time()
