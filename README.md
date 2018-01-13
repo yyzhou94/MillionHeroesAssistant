@@ -2,6 +2,9 @@
 
 # 百万英雄/冲顶大会/芝士超人 辅助小工具（限安卓手机）
 
+## 更新内容
+新增assistant_test.py，对选项检索出次数，推荐出可能答案
+
 ## 运行环境
 Python 3.6(目前已知3.6.4有些问题，建议用3.6.3及以下版本)<br/>
 android-platform-tools（访问[google](https://developer.android.google.cn/studio/releases/platform-tools.html)下载，默认 mac，windows， linux 均支持，同时将adb工具所在路径添加到环境变量—系统变量-Path下）<br/>
@@ -44,7 +47,8 @@ baidu-aip（百度的SDK，可以直接pip安装，也可以到https://ai.baidu.
 ![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/crop_test1.png?raw=true)<br/>
 返回答案：<br/>
 ![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/1.PNG)<br/>
-
+新版返回答案：<br/>
+![image](https://github.com/yyzhou94/MillionHeroesAssistant/blob/master/3.PNG)<br/>
 ## 分支说明
 
 - master: 主要是调用百度的SDK
