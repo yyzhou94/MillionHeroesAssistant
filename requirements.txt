@@ -1,7 +1,7 @@
 baidu-aip==2.0.0.1
 beautifulsoup4==4.6.0
 bs4==0.0.1
-certifi==2017.11.5
+certifi==2022.12.7
 chardet==3.0.4
 Django==2.0.1
 idna==2.6
